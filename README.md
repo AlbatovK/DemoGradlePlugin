@@ -7,6 +7,10 @@
 ./gradlew build
 ./gradlew generateProjectStatistic
 ```
+## Генерация ресурсов грамматики
+```
+./gradlew generateGrammarSource
+```
 По умолчанию отчет об анализе сохраняется в папку build корневого проекта.
 ```
 GradlePlugin

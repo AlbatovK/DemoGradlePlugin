@@ -1,3 +1,6 @@
+import RadixSort
+import MergeSort
+
 object InsertionSort {
     fun sort(xs: IntArray) {
         for (i in 1 until xs.size) {

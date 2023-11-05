@@ -1,3 +1,5 @@
+import MergeSort
+
 object RadixSort {
     fun sort(xs: IntArray) {
         require(xs.all { 0 <= it })
